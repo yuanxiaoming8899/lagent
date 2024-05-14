@@ -1,95 +1,111 @@
-<div id="top"></div>
-<div align="center">
-  <img src="docs/imgs/lagent_logo.png" width="450"/>
-
-[![docs](https://img.shields.io/badge/docs-latest-blue)](https://lagent.readthedocs.io/en/latest/)
-[![PyPI](https://img.shields.io/pypi/v/lagent)](https://pypi.org/project/lagent)
-[![license](https://img.shields.io/github/license/InternLM/lagent.svg)](https://github.com/InternLM/lagent/tree/main/LICENSE)
-[![issue resolution](https://img.shields.io/github/issues-closed-raw/InternLM/lagent)](https://github.com/InternLM/lagent/issues)
-[![open issues](https://img.shields.io/github/issues-raw/InternLM/lagent)](https://github.com/InternLM/lagent/issues)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=InternLM%2Flagent%20&countColor=%23263759&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/InternLM/lagent)
-![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/lagent)
-![GitHub contributors](https://img.shields.io/github/contributors/InternLM/lagent)
-
-English | [简体中文](README_zh-CN.md) | [日本語](README_ja_JP.md) | [हिंदी](README_in_HIN.md) | [বাংলা](README_in_beng.md) | [한국어](README_KR_Kr.md)
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div id="user-content-top" dir="auto"></div>
+<div align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/InternLM/lagent/blob/main/docs/imgs/lagent_logo.png"><img src="/InternLM/lagent/raw/main/docs/imgs/lagent_logo.png" width="450" style="max-width: 100%;"></a>
+<p dir="auto"><a href="https://lagent.readthedocs.io/en/latest/" rel="nofollow"><img src="https://camo.githubusercontent.com/d1465870dd0edfb9b32cd6ed333a1262a3c4c9af207be616580d4e8ca3cdc6ad/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6c61746573742d626c7565" alt="文档" data-canonical-src="https://img.shields.io/badge/docs-latest-blue" style="max-width: 100%;"></a>
+<a href="https://pypi.org/project/lagent" rel="nofollow"><img src="https://camo.githubusercontent.com/3e27e36df314f1fdf09cd44e6b07015b9e85fd2210d7f71dda74f468d34af68f/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6c6167656e74" alt="皮伊" data-canonical-src="https://img.shields.io/pypi/v/lagent" style="max-width: 100%;"></a>
+<a href="https://github.com/InternLM/lagent/tree/main/LICENSE"><img src="https://camo.githubusercontent.com/d162ebaadcb265fd9334dee754d52bb78fc605953c0c627ee61474d9c2bb28a0/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f496e7465726e4c4d2f6c6167656e742e737667" alt="执照" data-canonical-src="https://img.shields.io/github/license/InternLM/lagent.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/InternLM/lagent/issues"><img src="https://camo.githubusercontent.com/6105bc8cf3d8d01dc71d0986e85da8fd13a770bba589e46c4db46f0f381b6e2d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f496e7465726e4c4d2f6c6167656e74" alt="问题解决" data-canonical-src="https://img.shields.io/github/issues-closed-raw/InternLM/lagent" style="max-width: 100%;"></a>
+<a href="https://github.com/InternLM/lagent/issues"><img src="https://camo.githubusercontent.com/0df03b57345b368de1806722bb6da94e279d8ff7cced9228f307a164e004ba86/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7261772f496e7465726e4c4d2f6c6167656e74" alt="开放式问题" data-canonical-src="https://img.shields.io/github/issues-raw/InternLM/lagent" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/81fd6a42e224441d48a1129844adb0425c3f958701ebcd9945e2b656659bae17/68747470733a2f2f6170692e76697369746f7262616467652e696f2f6170692f76697369746f72733f706174683d496e7465726e4c4d2532466c6167656e7425323026636f756e74436f6c6f723d253233323633373539267374796c653d666c6174"><img src="https://camo.githubusercontent.com/81fd6a42e224441d48a1129844adb0425c3f958701ebcd9945e2b656659bae17/68747470733a2f2f6170692e76697369746f7262616467652e696f2f6170692f76697369746f72733f706174683d496e7465726e4c4d2532466c6167656e7425323026636f756e74436f6c6f723d253233323633373539267374796c653d666c6174" alt="访客" data-canonical-src="https://api.visitorbadge.io/api/visitors?path=InternLM%2Flagent%20&amp;countColor=%23263759&amp;style=flat" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/ecbae75ac27c1a822fdb8e5b99505418076813d011c894f618f097db68c39576/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f496e7465726e4c4d2f6c6167656e74"><img src="https://camo.githubusercontent.com/ecbae75ac27c1a822fdb8e5b99505418076813d011c894f618f097db68c39576/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f496e7465726e4c4d2f6c6167656e74" alt="GitHub 分叉" data-canonical-src="https://img.shields.io/github/forks/InternLM/lagent" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/65cf6ac8f0f709aa32ac929d40769556d882184c42d2b249cd9b79d6d8041dfd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f6c6167656e74"><img src="https://camo.githubusercontent.com/65cf6ac8f0f709aa32ac929d40769556d882184c42d2b249cd9b79d6d8041dfd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f496e7465726e4c4d2f6c6167656e74" alt="GitHub 存储库星星" data-canonical-src="https://img.shields.io/github/stars/InternLM/lagent" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1adfa0e53b275a26e7483ec081258e92af8610a8456caca31e43f5c77a171cd6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f496e7465726e4c4d2f6c6167656e74"><img src="https://camo.githubusercontent.com/1adfa0e53b275a26e7483ec081258e92af8610a8456caca31e43f5c77a171cd6/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f636f6e7472696275746f72732f496e7465726e4c4d2f6c6167656e74" alt="GitHub 贡献者" data-canonical-src="https://img.shields.io/github/contributors/InternLM/lagent" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">English |</font></font><a href="/InternLM/lagent/blob/main/README_zh-CN.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简体中文</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font><a href="/InternLM/lagent/blob/main/README_ja_JP.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日本语</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">| </font></font><a href="/InternLM/lagent/blob/main/README_in_HIN.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">हिंदी</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | </font></font><a href="/InternLM/lagent/blob/main/README_in_beng.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">বাংলা</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> | </font></font><a href="/InternLM/lagent/blob/main/README_KR_Kr.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">한국어</font></font></a></p>
 </div>
-
-<p align="center">
-    👋 join us on <a href="https://twitter.com/intern_lm" target="_blank">𝕏 (Twitter)</a>, <a href="https://discord.gg/xa29JuW87d" target="_blank">Discord</a> and <a href="https://r.vansin.top/?r=internwx" target="_blank">WeChat</a>
+<p align="center" dir="auto"><font style="vertical-align: inherit;"></font><a href="https://twitter.com/intern_lm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👋 在𝕏 (Twitter)</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://discord.gg/xa29JuW87d" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font><a href="https://r.vansin.top/?r=internwx" rel="nofollow"><font style="vertical-align: inherit;">微信</font></a><font style="vertical-align: inherit;">
+    上加入我们</font></font><a href="https://r.vansin.top/?r=internwx" rel="nofollow"><font style="vertical-align: inherit;"></font></a>
 </p>
+<div align="center" dir="auto">
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频描述 InternLM2-Agent.mp4" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实习生LM2-Agent.mp4</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
 
-<div align="center">
+  <video src="https://private-user-images.githubusercontent.com/24622904/301545276-3242f9bf-32d2-4907-8815-e16a75a4ac0e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU2NzE0MTMsIm5iZiI6MTcxNTY3MTExMywicGF0aCI6Ii8yNDYyMjkwNC8zMDE1NDUyNzYtMzI0MmY5YmYtMzJkMi00OTA3LTg4MTUtZTE2YTc1YTRhYzBlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE0VDA3MTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3OTU3MmE5YjM0YmI3ODRjMzQzZTM3N2Y4ODY3ZDg2MzJhYmQ5NmY4Nzc2NzZlMWUxYjA2YzQyYTk1YzQ1MmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ikX1FiU8OXWdySB9yD-qpvOH_7OUg_1SU9ZFLvUs0kc" data-canonical-src="https://private-user-images.githubusercontent.com/24622904/301545276-3242f9bf-32d2-4907-8815-e16a75a4ac0e.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU2NzE0MTMsIm5iZiI6MTcxNTY3MTExMywicGF0aCI6Ii8yNDYyMjkwNC8zMDE1NDUyNzYtMzI0MmY5YmYtMzJkMi00OTA3LTg4MTUtZTE2YTc1YTRhYzBlLm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE0VDA3MTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3OTU3MmE5YjM0YmI3ODRjMzQzZTM3N2Y4ODY3ZDg2MzJhYmQ5NmY4Nzc2NzZlMWUxYjA2YzQyYTk1YzQ1MmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ikX1FiU8OXWdySB9yD-qpvOH_7OUg_1SU9ZFLvUs0kc" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 
-https://github.com/InternLM/lagent/assets/24622904/3242f9bf-32d2-4907-8815-e16a75a4ac0e
+  </video>
+</details>
 
 </div>
-
-## Getting Started
-
-Please see the [overview](docs/en/get_started/overview.md) for the general introduction of Lagent. Meanwhile, we provide extremely simple code for quick start. You may refer to [examples](examples/) for more details.
-
-### Installation
-
-Install with pip (Recommended).
-
-```bash
-pip install lagent
-```
-
-### Run a Web Demo
-
-You need to install Streamlit first.
-
-```bash
-# pip install streamlit
-streamlit run examples/internlm2_agent_web_demo.py
-```
-
-## What's Lagent?
-
-Lagent is a lightweight open-source framework that allows users to efficiently build large language model(LLM)-based agents. It also provides some typical tools to augment LLM. The overview of our framework is shown below:
-
-![image](https://github.com/InternLM/lagent/assets/24351120/cefc4145-2ad8-4f80-b88b-97c05d1b9d3e)
-
-## Major Features
-
-- Stream Output: Provides the `stream_chat` interface for streaming output, allowing cool streaming demos right at your local setup.
-- Interfacing is unified, with a comprehensive design upgrade for enhanced extensibility, including:
-  - Model: Whether it's the OpenAI API, Transformers, or LMDeploy inference acceleration framework, you can seamlessly switch between models.
-  - Action: Simple inheritance and decoration allow you to create your own personal toolkit, adaptable to both InternLM and GPT.
-  - Agent: Consistent with the Model's input interface, the transformation from model to intelligent agent only takes one step, facilitating the exploration and implementation of various agents.
-- Documentation has been thoroughly upgraded with full API documentation coverage.
-
-## 💻Tech Stack
-
-<p>
-  <a href="">
-    <img src="https://img.shields.io/badge/Python-007ACC?style=for-the-badge&logo=python&logoColor=yellow" alt="python" />
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lagent的总体介绍</font><font style="vertical-align: inherit;">请参见</font></font><a href="/InternLM/lagent/blob/main/docs/en/get_started/overview.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">概述</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。同时，我们提供了极其简单的代码以供快速入门。您可以参考</font></font><a href="/InternLM/lagent/blob/main/examples"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多详细信息。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h3><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 pip 安装（推荐）。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install lagent</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install lagent" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行网络演示</font></font></h3><a id="user-content-run-a-web-demo" class="anchor" aria-label="永久链接：运行网络演示" href="#run-a-web-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您需要先安装 Streamlit。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> pip install streamlit</span>
+streamlit run examples/internlm2_agent_web_demo.py</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# pip install streamlit
+streamlit run examples/internlm2_agent_web_demo.py" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">什么是拉金特？</font></font></h2><a id="user-content-whats-lagent" class="anchor" aria-label="永久链接：什么是 Lagent？" href="#whats-lagent"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lagent 是一个轻量级开源框架，允许用户高效构建基于大型语言模型（LLM）的代理。它还提供了一些典型的工具来增强法学硕士。我们的框架概述如下所示：</font></font></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/24351120/262059491-cefc4145-2ad8-4f80-b88b-97c05d1b9d3e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU2NzE0MTMsIm5iZiI6MTcxNTY3MTExMywicGF0aCI6Ii8yNDM1MTEyMC8yNjIwNTk0OTEtY2VmYzQxNDUtMmFkOC00ZjgwLWI4OGItOTdjMDVkMWI5ZDNlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE0VDA3MTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdlNjIyZjc1ZTQwMjc3YjNiMWY2OTdjN2RiYWY4Y2U4MTg4OTdiMDkyMzI3MzAwNWYyMDhiMzM5MTZlNWFmMTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Md5Tdz-4c9kX9_B8VCkBsqfGVLqfP5uJX45fO8F7KuY"><img src="https://private-user-images.githubusercontent.com/24351120/262059491-cefc4145-2ad8-4f80-b88b-97c05d1b9d3e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU2NzE0MTMsIm5iZiI6MTcxNTY3MTExMywicGF0aCI6Ii8yNDM1MTEyMC8yNjIwNTk0OTEtY2VmYzQxNDUtMmFkOC00ZjgwLWI4OGItOTdjMDVkMWI5ZDNlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA1MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNTE0VDA3MTgzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdlNjIyZjc1ZTQwMjc3YjNiMWY2OTdjN2RiYWY4Y2U4MTg4OTdiMDkyMzI3MzAwNWYyMDhiMzM5MTZlNWFmMTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Md5Tdz-4c9kX9_B8VCkBsqfGVLqfP5uJX45fO8F7KuY" alt="图像" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主要特点</font></font></h2><a id="user-content-major-features" class="anchor" aria-label="永久链接：主要特点" href="#major-features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流输出：提供</font></font><code>stream_chat</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">流输出接口，允许在本地设置中进行酷炫的流演示。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接口统一，全面设计升级，增强扩展性，包括：
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型：无论是OpenAI API、Transformers还是LMDeploy推理加速框架，您都可以在模型之间无缝切换。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作：简单的继承和装饰允许您创建自己的个人工具包，适用于 InternLM 和 GPT。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Agent：与Model的输入接口一致，从模型到智能Agent的转变只需一步，方便各种Agent的探索和实现。</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档已全面升级，API 文档覆盖全面。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻技术堆栈</font></font></h2><a id="user-content-tech-stack" class="anchor" aria-label="永久链接：💻技术堆栈" href="#tech-stack"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto">
+  <a href="/InternLM/lagent/blob/main">
+    <img src="https://camo.githubusercontent.com/7cc839411ff1df21e9d0c5b4057fd14e459014ab18a1d8af0db2c5c0d0d49730/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d79656c6c6f77" alt="Python" data-canonical-src="https://img.shields.io/badge/Python-007ACC?style=for-the-badge&amp;logo=python&amp;logoColor=yellow" style="max-width: 100%;">
   </a>
-
-### All Thanks To Our Contributors:
-
+</p><div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢我们的贡献者：</font></font></h3><a id="user-content-all-thanks-to-our-contributors" class="anchor" aria-label="永久链接：感谢我们的贡献者：" href="#all-thanks-to-our-contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <a href="https://github.com/InternLM/lagent/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=InternLM/lagent" />
+  <img src="https://camo.githubusercontent.com/6b63d92d66150e6911481f4a79233dea7fe6c0010974997289776602929cee06/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d496e7465726e4c4d2f6c6167656e74" data-canonical-src="https://contrib.rocks/image?repo=InternLM/lagent" style="max-width: 100%;">
 </a>
-
-## Citation
-
-If you find this project useful in your research, please consider cite:
-
-```latex
-@misc{lagent2023,
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引文</font></font></h2><a id="user-content-citation" class="anchor" aria-label="永久链接：引文" href="#citation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现该项目对您的研究有用，请考虑引用：</font></font></p>
+<div class="highlight highlight-text-tex-latex notranslate position-relative overflow-auto" dir="auto"><pre>@misc{lagent2023,
+    title={{Lagent: InternLM} a lightweight open-source framework that allows users to efficiently build large language model(LLM)-based agents},
+    author={Lagent Developer Team},
+    howpublished = {<span class="pl-c1">\url</span>{https://github.com/InternLM/lagent}},
+    year={2023}
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@misc{lagent2023,
     title={{Lagent: InternLM} a lightweight open-source framework that allows users to efficiently build large language model(LLM)-based agents},
     author={Lagent Developer Team},
     howpublished = {\url{https://github.com/InternLM/lagent}},
     year={2023}
-}
-```
-
-## License
-
-This project is released under the [Apache 2.0 license](LICENSE).
-
-<p align="right"><a href="#top">🔼 Back to top</a></p>
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目是在</font></font><a href="/InternLM/lagent/blob/main/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache 2.0 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下发布的。</font></font></p>
+<p align="right" dir="auto"><a href="#top"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔼 回到顶部</font></font></a></p>
+</article></div>
